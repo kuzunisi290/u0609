@@ -6,6 +6,7 @@ public class hensu : MonoBehaviour
 {
     int a = 10;
     int vx = 20;
+    static int counter = 0;
 
     //順次処理
     public void Ennsyu71()
@@ -19,6 +20,12 @@ public class hensu : MonoBehaviour
 
     public void Ennsyu72()
     {
+        Debug.Log(vx);
+    }
+
+    public void Ennsyu74()
+    {
+        vx += 10;
         Debug.Log(vx);
     }
 
